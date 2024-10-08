@@ -1,0 +1,65 @@
+
+body {
+    background-color: #23242a;  
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    background-color: #286637;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    display:flex;
+    height: auto;
+    width:100%;
+    
+}
+div img{
+    display: inline-block; 
+    width: 450px;
+    height: 400px; 
+    border: 5px solid #000; 
+    padding: 10px; 
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);  
+}
+h1 {
+    font-size: 2.5em; /* Kích thước chữ */
+    color: green; /* Màu chữ */
+}
+/* Style cho liên kết chưa được truy cập */
+a:link {
+    color: #1a0dab; /* Màu của liên kết chưa được truy cập */
+    text-decoration: none; /* Không gạch chân */
+}
+
+/* Style cho liên kết đã được truy cập */
+a:visited {
+    color: #6610f2; /* Màu của liên kết đã được truy cập */
+}
+
+/* Style cho liên kết khi di chuột qua */
+a:hover {
+    color: #d50000; /* Màu khi di chuột qua */
+    text-decoration: underline; /* Gạch chân khi di chuột qua */
+}
+
+/* Style cho liên kết đang được nhấn */
+a:active {
+    color: #ff5722; /* Màu khi nhấn */
+}
+
+
+
