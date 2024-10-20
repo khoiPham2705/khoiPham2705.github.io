@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jessica Info</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dist/css/lightbox.css">
+</head>
+<body onload="pickImage()">
+    <script src="./main.js"></script>
+    <a href="#gallery">Skip to Gallery</a>
+    <header>
+        <nav>
+            <ul>
+              <li><a href="index.html">Jessica</a></li>
+              <li><a href="marcus.html">Marcus</a></li>
+              <li><a href="regulus.html">Regulus</a></li> 
+            </ul>
+            <img id="header_img" src="" alt="" > 
+        </nav>
+    </header>
+    
+    <main>
+        <img src="images/JessicaWallpaper.jpg" alt="Jessica image" > 
+        <h1>Jessica from Reverse 1999</h1>
+        
+        <div>
+            <h2>Introduction</h2>
+            <p>Jessica is a 6✦ rarity character from the Plant afflatus who deals Reality damage and belongs to the Damage class. Jessica is a powerful Carry focused on dealing increased damage against enemies afflicted with Poison.</p>
+        </div>
+        
+        <div>
+            <h2>Skills</h2>
+            <ul>
+                <li>
+                    <h3>Gaze From the Forest: Deal massive damage and inflicts Poison on all enemies for 2 rounds</h3>
+                    <br>    
+                    <a href="images/gaze.jpg"" data-lightbox="images" data-title="Caption 1">
+                        <img src="images/gaze.jpg"" alt="a">
+                    </a>
+                </li>                 
+                <li>
+                    <h3>White Blankie: 1-target attack, if the target suffers Poison, deals more DMG</h3>
+                    <br>
+                    <a href="images/white.jpg"" data-lightbox="images" data-title="Caption 1">
+                        <img src="images/white.jpg"" alt="a">
+                    </a>
+                </li>
+                <li>
+                    <h3>Good Friends: Mass attack, if the target is inflicted with Negative Status, deal more damage</h3>
+                    <br>
+                    <a href="images/good.jpg"" data-lightbox="images" data-title="Caption 1">
+                        <img src="images/good.jpg"" alt="a">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <div>
+            <h2>Inheritance</h2>
+            <ul>
+                <li>Insight I: the damage dealt increases by 20% when attacking an enemy afflicted with Poison.</li>
+                <li>Insight II: DMG Dealt +8%</li>
+                <li>After attacking enemies not afflicted with Poison, inflicts Poison for 2 rounds.</li>
+            </ul>
+        </div>
+
+        <div class="grid-container">             
+            <h2  id="gallery">Gallery</h2>
+
+            <div id = "image">
+                Hover over an image below to display here.
+            </div>
+
+            <a href="https://www.youtube.com/watch?v=QqeZt_bfVIE&t=1s">Jessica Graduation Day</a>
+            <br>
+            <a href="images/i0.jpg" data-lightbox="images" data-title="Caption 1">
+                <img src="images/i0.jpg" alt="i0" onfocus="upDate(this)" onblur="unDo()" onmouseenter="upDate(this)" onmouseleave="unDo()" tabindex="0">
+            </a>
+            <a href="images/i2.jpg" data-lightbox="images" data-title="Caption 1">
+                <img src="images/i2.jpg" alt="i2" onfocus="upDate(this)" onblur="unDo()" onmouseenter="upDate(this)" onmouseleave="unDo()" tabindex="0">
+            </a>
+            <a href="images/3.jpg" data-lightbox="images" data-title="Caption 1">
+                <img src="images/3.jpg" alt="music video" onfocus="upDate(this)" onblur="unDo()" onmouseenter="upDate(this)" onmouseleave="unDo()" tabindex="0">
+            </a>
+            <a href="images/5.jpg" data-lightbox="images" data-title="Caption 1">
+                <img src="images/5.jpg" alt="graduation day" onfocus="upDate(this)" onblur="unDo()" onmouseenter="upDate(this)" onmouseleave="unDo()" tabindex="0">
+            </a>
+            <a href="images/6.jpg" data-lightbox="images" data-title="Caption 1">
+                <img src="images/6.jpg" alt="Jessicaaaa" onfocus="upDate(this)" onblur="unDo()" onmouseenter="upDate(this)" onmouseleave="unDo()" tabindex="0">
+            </a>
+            <a href="images/4.jpg" data-lightbox="images" data-title="Caption 1">
+                <img src="images/4.jpg" alt="Udimo" onfocus="upDate(this)" onblur="unDo()" onmouseenter="upDate(this)" onmouseleave="unDo()" tabindex="0">
+            </a>
+            
+            
+            
+        </div>
+    </main>
+    
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
+</body>
+</html>
